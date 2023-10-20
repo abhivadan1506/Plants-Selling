@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book Your Order</title>
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+    <h1>Product Name: Latest Plants</h1>
+    <p>Price: 550</p>
+    <style>
+        *{
+            align-items: center;
+        }
+    </style>
+        <form>
+        <input type="hidden" name="product_id" value="1">
+        <input type="hidden" name="product_name" value="Product Name">
+        <input type="hidden" name="product_price" value="19.99">
+        
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" value="1" min="24">
+        <br></br>
+        <a href="connect.js" class="btn">Submit</a>
+    </form>
+</body>
+</html>
